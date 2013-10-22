@@ -28,6 +28,7 @@ CSS-preprocessors.
 
 Det kommer inte att finnas någon koppling till databaser eller något liknande, då vi inte besitter någon kunskap inom detta område.
 Eventuella formulär osv kommer inte att vara skarpa, utan bara finnas där för att det ska vara möjligt att använda dem, om man vet hur.
+Sidan som vi skapar är endast för projektets skull och kommer ej att underhållas i framtiden.
 
 
 ## Tidsplanering
