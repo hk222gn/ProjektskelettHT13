@@ -13,8 +13,14 @@ Projektmedlemmar:
 Projektets syfte är att skapa en hemsida där olika nyheter beträffande spel samt recensioner ska vara lätt åtkomligt och snyggt upplagt.
 Detta inkluderar att det ska vara behagligt och enkelt att läsa.
 
-Själva idéns härkomst är genom våra gemensamma intressen. Vi båda har ett enormt intresse för spel och dess värld.
+Själva idéns härkomst är genom våra gemensamma intressen. Vi båda har ett enormt intresse för spel och dess värld och valde därför
+att göra just detta.
 
+### Några viktiga saker för oss.
+
+1. Det ska vara lätt att orientera sig på sidan
+2. Det ska vara enkelt att läsa texten osv
+3. Layouten ska vara responsiv
 
 ## Tekniker
 *Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
