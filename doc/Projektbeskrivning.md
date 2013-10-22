@@ -3,7 +3,7 @@ Projektmedlemmar:
 [hk222gn](https://github.com/hk222gn), [km222ew](https://github.com/km222ew)
 
 
-[Exekverbar version av projektet](http://hk222gn.github.io/ProjektskelettHT13)
+[Exekverbar version av projektet](http://hk222gn.github.io/ProjektskelettHT13/Projekt)
 
 
 ## Beskrivning av projektet
@@ -31,5 +31,5 @@ Eventuella formulär osv kommer inte att vara skarpa, utan bara finnas där för
 
 
 ## Tidsplanering
-[Tidsplaneringen](https://github.com/hk222gn/ProjektskelettHT13/blob/master/doc/Tids-schema.pdf)
+[Tidsplaneringen](https://github.com/hk222gn/ProjektskelettHT13/blob/gh-pages/doc/Tids-schema.pdf)
 
