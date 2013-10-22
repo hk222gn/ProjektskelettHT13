@@ -31,5 +31,5 @@ Eventuella formulär osv kommer inte att vara skarpa, utan bara finnas där för
 
 
 ## Tidsplanering
-[Tidsplaneringen](https://github.com/hk222gn/ProjektskelettHT13/blob/master/doc/Tids-schema.pdf)
+[Tidsplaneringen](https://github.com/hk222gn/ProjektskelettHT13/blob/gh-pages/doc/Tids-schema.pdf)
 
