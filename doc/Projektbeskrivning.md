@@ -19,7 +19,7 @@ att göra just detta.
 1. Det ska vara lätt att orientera sig på sidan och komma åt det man vill.
 2. Layouten ska vara enkel och responsiv, men fortfarande vara tilltalande för ögat.
 
-Vi kommer självklart att skapa detta efter kraven som finns att läsa [här](https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/webbsideprojekt/)
+Vi kommer självklart att skapa detta projektet efter kraven som finns att läsa [här](https://coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/webbsideprojekt/)
 ## Tekniker
 
 De tekniker som vi har valt att använda oss av är CSS3 och HTML5, vi kommer inte att använda oss av några ramverk eller
