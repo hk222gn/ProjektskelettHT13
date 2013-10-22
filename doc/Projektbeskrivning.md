@@ -3,7 +3,7 @@ Projektmedlemmar:
 [hk222gn](https://github.com/hk222gn), [km222ew](https://github.com/km222ew)
 
 
-[Exekverbar version av projektet](http://hk222gn.github.io/ProjektskelettHT13/Projekt)
+[Exekverbar version av projektet](http://hk222gn.github.io/ProjektskelettHT13)
 
 
 ## Beskrivning av projektet
