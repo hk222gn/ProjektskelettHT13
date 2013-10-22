@@ -1,4 +1,4 @@
-# GNAR
+# GNAR Gaming News And Reviews
 Projektmedlemmar: 
 [hk222gn](https://github.com/hk222gn), [km222ew](https://github.com/km222ew)
 
