@@ -1,0 +1,41 @@
+/* MOBILE CSS */
+body
+{
+
+}
+#container
+{
+    max-width: 100%;
+}
+header
+{
+    
+}
+#top
+{
+    background-color: grey;
+    max-width: 100%;
+    height: 100px;
+    display: block;
+}
+nav
+{
+    
+}
+main
+{
+    max-width: 100%;
+    display: block;
+    background-color: red;
+    height: 200px;
+    position: relative;/* Om ändras, artFoot kommer inte att funka, fix. */
+}
+footer
+{
+    
+}
+#artFoot
+{
+    position: absolute; 
+    bottom: 0; right: 0;
+}
