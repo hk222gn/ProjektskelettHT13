@@ -2,7 +2,7 @@
 <html lang="sv">
 	<head>
     	<meta charset="utf-8">
-		<title>GNAR - Game News And Reviews</title>
+		<title>Kontakt</title>
 		<!-- MOBILE -->
 		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
         <link rel = "stylesheet" type = "text/css" media = "screen and (max-width:480px)" href = "../css/screen.css" />
@@ -20,10 +20,10 @@
 	        </header>
 	        
 	        <nav>
-	            <ul>
-	                
-	                
-	            </ul>
+	            <a href="../index.html">Start</a>
+	            <a href="nyheter.html">Nyheter</a>
+                <a href="recensioner.html">Recensioner</a>
+                <a href="kontakt.html">Kontakt</a>
             </nav>
 	        
             <main>
@@ -33,20 +33,20 @@
                         <form class="form" id="form1">
                       
                             <p class="name">
-                            <input name="name" type="text" class="feedback-input" id="name" placeholder="Name" />
+                            <input name="name" type="text" class="feedback-input" id="name" placeholder="Namn" autofocus required />
                             </p>
                           
                             <p class="email">
-                            <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+                            <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" required />
                             </p>
                           
                             <p class="text">
-                            <textarea name="text" class="feedback-input" id="comment" placeholder="Comment"></textarea>
+                            <textarea name="text" class="feedback-input" id="comment" spellcheck="true" placeholder="Kommentar" required></textarea>
                             </p>
                           
                           
                             <div class="submit">
-                            <input type="submit" value="SEND" id="button-blue"/>
+                            <input type="submit" value="SKICKA" id="button-blue"/>
                             <div class="ease"></div>
                             </div>
                         </form>
