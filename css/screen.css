@@ -1,4 +1,13 @@
 /* MOBILE CSS */
+
+/* EDITING COMMENTS */
+/*1. Margin left right för att sedan sätta rundade hörn?*/
+/*2.*/
+/* Article color cored #C1CDCD */
+header, footer, main, article, nav
+{
+    display:block;
+}
 body
 {
 
@@ -6,6 +15,7 @@ body
 #container
 {
     max-width: 100%;
+    background-color: #F5FFFF;
 }
 header
 {
@@ -13,7 +23,7 @@ header
 }
 #top
 {
-    background-color: grey;
+    background-color: #E2EEEE;
     max-width: 100%;
     height: 100px;
     display: block;
@@ -26,9 +36,29 @@ main
 {
     max-width: 100%;
     display: block;
-    background-color: red;
-    height: 200px;
+    background-color: #E2EEEE;
+    
     position: relative;/* Om ändras, artFoot kommer inte att funka, fix. */
+}
+article
+{
+    margin:20px;
+    background-color: #D1DDDD;
+    
+}
+#newsList
+{
+    max-width: 100%;
+    height: 200px;
+    background-color: #E0EEEE;
+    margin-top: 5px;
+}
+#category
+{
+    max-width: 100%;
+    height: 200px;
+    background-color: #E0EEEE;
+    margin-top: 5px;
 }
 footer
 {
@@ -39,3 +69,4 @@ footer
     position: absolute; 
     bottom: 0; right: 0;
 }
+
