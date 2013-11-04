@@ -7,7 +7,7 @@
 		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
         <link rel = "stylesheet" type = "text/css" media = "screen and (max-width:480px)" href = "../css/screen.css" />
 		<!-- DESKTOP -->
-		<link rel = "stylesheet" type = "text/css" href = "../css/basic.css" />
+		<link rel = "stylesheet" type = "text/css" media = "screen and (min-width:481px)" href = "../css/basic.css" />
         <link rel = "stylesheet" type = "text/css" media = "print" href = "../css/print.css" />
         <!-- FAVICON UNT SHIT -->
 		<link rel="shortcut icon" href="FOLDER/favicon.ico">
@@ -17,81 +17,86 @@
 	    <div id = "container">
 	    
 	        <header id = "top">
-	            <h1>G.N.A.R - Game News And Reviews</h1>
+	            <h1>G.N.A.R<br />Game News And Reviews</h1>
 	        </header>
 	        
-	        <nav>
-	            <a href="../index.html">Start</a>
-	            <a href="nyheter.html">Nyheter</a>
-                <a href="recensioner.html">Recensioner</a>
-                <a href="kontakt.html">Kontakt</a>
-            </nav>
+	        <a href="#menu"><div id = "menuMob">Meny</div></a>
+	        
 
 	        
     	    <main>
     	    
-        	    <form id="searchbox" action="">
-        	        <label for="search">Sök Nyheter : </label> 
-                    <input id="search" type="text" placeholder="Nyckelord">
-                    <input id="submit" type="submit" value="Search">
-                </form>
-    	    
-    	        <h1>Nyheter</h1>
-    	        
-        	    <article>
-    	            <h1>Bioshock Infinite: Burial at Sea episod ett har ett release-datum</h1>
+        	    <div id="titleSearch">
+        	        <h1>Nyheter</h1>
+        	    
+            	    <form id="searchbox">
+            	        <label for="search">Sök Nyheter : </label> 
+                        <input id="search" type="text" placeholder="Nyckelord">
+                        <input id="submit" type="submit" value="Search">
+                    </form>
+        	    </div>
+        	    
+    	        <article>
+    	            <a href = "news/bio.html"><h2>Bioshock Infinite: Burial at Sea episod ett har ett release-datum</h2></a>
+    	            <figure>
+	                    <a href = "news/bio.html"><img src="../images/burial_at_sea_header.jpg" alt="Bioshock Infinite: Burial at Sea DLC"></a>
+	                </figure>
     	            <p>Det efterlänktade dlc:t till Bioshock Infinite släpps i delar och den första fokuserar på Booker.</p>
-    	            <footer><a href = "news/bio.html">Läs mer</a></footer>
+    	            <footer> 26 Oktober 2013</footer>
     	        </article> 
     	            
     	        <article>
-        	        <h1>Deus Ex: Human Revolution Director's Cut</h1>
+        	        <a href = "news/dehrdc.html"><h2>Deus Ex: Human Revolution Director's Cut</h2></a>
+        	        <figure>
+	                    <a href = "news/dehrdc.html"><img src="../images/deus2.jpg" alt="Deus Ex: Human Revolution Director's Cut"></a>
+	                </figure>
         	        <p>Deus Ex: HR Director's Cut innehåller extra godsaker och förbättringar.</p>
-        	        <footer><a href = "news/dehrdc.html">Läs mer</a></footer>
+        	        <footer>Tillagd 26 Oktober 2013</footer>
     	        </article>
     	        
     	        <article>
-    	            <h1>The Witcher 3: Wild Hunt släpps 100% utan DRM-skydd</h1>
-    	            <p>CD Projekt RED:s medgrundare Marcin Iwinski meddelar att Witcher 3 inte kommer att ha något DRM-skydd. </p>
-    	            <footer><a href = "news/w3drm.html">Läs mer</a></footer>
+    	            <a href = "news/w3drm.html"><h2>The Witcher 3: Wild Hunt släpps 100% utan DRM-skydd</h2></a>
+    	            <figure>
+	                    <a href = "news/w3drm.html"><img src="../images/witcher04.jpg" alt="The Witcher 3: Wild Hunt"></a>
+	                </figure>
+    	            <p>CD Projekt RED:s medgrundare Marcin Iwinski meddelar att Witcher 3 inte kommer att ha något DRM-skydd.</p>
+    	            <footer>Tillagd 25 Oktober 2013</footer>
     	        </article>
     	        
     	        <article>
-    	            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+    	            <a href = "#"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2></a>
     	            <p>Vestibulum quis lectus ullamcorper libero aliquam cursus a ac neque. Mauris porttitor nec dui sed convallis.</p>
-    	            <footer><a href = "#">Läs mer</a></footer>
+    	            <footer>Tillagd 25 Oktober 2013</footer>
     	        </article>
     	        
     	        <article>
-    	            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+    	            <a href = "#"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2></a>
     	            <p>Vestibulum quis lectus ullamcorper libero aliquam cursus a ac neque. Mauris porttitor nec dui sed convallis.</p>
-    	            <footer><a href = "#">Läs mer</a></footer>
+    	            <footer>Tillagd 25 Oktober 2013</footer>
     	        </article>
     	        
     	        <article>
-    	            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+    	            <a href = "#"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2></a>
     	            <p>Vestibulum quis lectus ullamcorper libero aliquam cursus a ac neque. Mauris porttitor nec dui sed convallis.</p>
-    	            <footer><a href = "#">Läs mer</a></footer>
+    	            <footer>Tillagd 25 Oktober 2013</footer>
     	        </article>
     	        
     	        <article>
-    	            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+    	            <a href = "#"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2></a>
     	            <p>Vestibulum quis lectus ullamcorper libero aliquam cursus a ac neque. Mauris porttitor nec dui sed convallis.</p>
-    	            <footer><a href = "#">Läs mer</a></footer>
+    	            <footer>Tillagd 25 Oktober 2013</footer>
     	        </article>
-    	        
-        	    <div id = "newsList"> <!-- En lista med de senaste nyheterna. ?Kort recap? -->
-        	    
-        	    </div>
-    	    
-        	    <div id = "category"><!-- En kategori lista. ?innehåll? -->
-                    <h3>Äppel</h3>    	        
-        	        <h3>Träd</h3><!-- Ska ordnas snyggt -->
-        	    </div>
     	    
     	    </main>
     	    
-    	    
+    	    <nav>
+	            <ul>
+    	            <li class = "navRound"><a id="menu" href="../index.html">Start</a></li>
+    	            <li><a href="nyheter.html">Nyheter</a></li>
+                    <li><a href="recensioner.html">Recensioner</a></li>
+                    <li class = "navRound2"><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
 	        
 	        <footer><!-- Kort rad längst ner, innehåller Copyrigt etc -->
 	            

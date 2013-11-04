@@ -1,0 +1,20 @@
+body
+{
+    background-color: #FFFFFF;
+}
+nav
+{
+    display: none;
+}
+#category
+{
+    display: none;
+}
+details
+{
+    display: none;
+}
+a:link {color: #00688B;}
+a:visited {color: #00688B;}
+a:hover {color: #00688B;} 
+a:active {color: #00688B;}
