@@ -6,13 +6,21 @@ nav
 {
     display: none;
 }
-#category
+#menuMob
 {
     display: none;
 }
-details
+img
 {
     display: none;
+}
+#titleSearch
+{
+    display: none;
+}
+#top
+{
+    text-align: center;
 }
 a:link {color: #00688B;}
 a:visited {color: #00688B;}

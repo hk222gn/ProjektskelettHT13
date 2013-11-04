@@ -5,9 +5,9 @@
 		<title>Recensioner</title>
 		<!-- MOBILE -->
 		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
-        <link rel = "stylesheet" type = "text/css" media = "screen and (max-width:480px)" href = "../css/screen.css" />
+        <link rel = "stylesheet" type = "text/css" media = "screen and (max-width:580px)" href = "../css/screen.css" />
 		<!-- DESKTOP -->
-		<link rel = "stylesheet" type = "text/css" media = "screen and (min-width:481px)" href = "../css/basic.css" />
+		<link rel = "stylesheet" type = "text/css" media = "screen and (min-width:581px)" href = "../css/basic.css" />
         <link rel = "stylesheet" type = "text/css" media = "print" href = "../css/print.css" />
         <!-- FAVICON UNT SHIT -->
 		<link rel="shortcut icon" href="FOLDER/favicon.ico">
@@ -24,14 +24,16 @@
 	        
 	        <main id ="main">
     	    
-    	    <h1>Recensioner</h1>
-    	    
-        	    <form id="searchbox">
-        	        <label for="search">Sök Recensioner : </label> 
-                    <input id="search" type="text" placeholder="Spelnamn">
-                    <input id="submit" type="submit" value="Search">
-                </form>
-    	    
+        	    <div id="titleSearch">
+        	        <h1>Recensioner</h1>
+        	    
+            	    <form id="searchbox">
+            	        <label for="search">Sök Recensioner : </label> 
+                        <input id="search" type="text" placeholder="Spelnamn">
+                        <input id="submit" type="submit" value="Search">
+                    </form>
+        	    </div>
+        	    
     	        <article>
     	            
     	            <figure>
@@ -113,8 +115,8 @@
                 </ul>
             </nav>
 	        
-	        <footer><!-- Kort rad längst ner, innehåller Copyrigt etc -->
-	            
+	        <footer id = "foot" class = "navRound">
+	            Skapad av Hampus Karlsson och Kevin Madsen.
 	        </footer>
 	    </div>
 	</body>
